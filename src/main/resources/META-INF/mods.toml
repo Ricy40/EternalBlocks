@@ -1,0 +1,31 @@
+
+modLoader="javafml"
+loaderVersion="[38,)"
+license="All rights reserved"
+
+[[mods]]
+modId="etb"
+version="${file.jarVersion}"
+displayName="Eternal Blocks"
+logoFile="etb.png"
+
+credits="Thanks to Jayzet for the Eternal Biomes"
+authors="Ricy40, Oopster & Jayzet"
+
+description='''
+A Mod to add blocks for the Eternal mod biomes using open terrain generator.
+'''
+
+[[dependencies.etb]]
+    modId="forge"
+    mandatory=true
+    versionRange="[38,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.etb]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
