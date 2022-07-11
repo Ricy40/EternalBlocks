@@ -82,13 +82,13 @@ public class ModWoodSet {
         this.STRIPPED_POST = registerBlockWithItem(register, name + "_stripped_post", () -> new PostBlock(this.POST.get(), BlockBehaviour.Properties.of(Material.WOOD, barkColour).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
     }
 
-    private <T extends Block> RegistryObject<T> registerBlockWithItem(DeferredRegister<Block> register, String name, Supplier<T> block) {
+    private static <T extends Block> RegistryObject<T> registerBlockWithItem(DeferredRegister<Block> register, String name, Supplier<T> block) {
         RegistryObject<T> toReturn = register.register(name, block);
         registerBlockItem(name, toReturn, ModCreativeModeTab.ETERNAL_BLOCKS);
         return toReturn;
     }
 
-    private <T extends Block> RegistryObject<T> registerBlockWithoutItem(DeferredRegister<Block> register, String name, Supplier<T> block) {
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutItem(DeferredRegister<Block> register, String name, Supplier<T> block) {
         return register.register(name, block);
     }
 

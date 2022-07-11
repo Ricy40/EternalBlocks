@@ -40,8 +40,7 @@ public class EternalBlocks {
     private void setup(final FMLCommonSetupEvent event) {
 
         event.enqueueWork(() -> {
-            Sheets.addWoodType(ModBlocks.ALDER.WOODTYPE);
-
+            Sheets.addWoodType(ModBlocks.ALDER_WOODTYPE);
         });
     }
 

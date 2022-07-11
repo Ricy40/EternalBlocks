@@ -12,7 +12,6 @@ import net.minecraft.world.level.levelgen.feature.configurations.TreeConfigurati
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
 
-import java.util.Random;
 import java.util.function.BiConsumer;
 
 public class AlderFoliagePlacer extends ModFoliagePlacer {
@@ -32,7 +31,7 @@ public class AlderFoliagePlacer extends ModFoliagePlacer {
         return ModTreePlacers.ALDER_FOLIAGE.get();
     }
 
-    protected void m_142539_(LevelSimulatedReader generationReader, BiConsumer<BlockPos, BlockState> posSet, RandomSource random, TreeConfiguration config, int trunkHeight, FoliagePlacer.FoliageAttachment foliage, int foliageHeight, int radius, int offset) {
+    protected void createFoliage(LevelSimulatedReader generationReader, BiConsumer<BlockPos, BlockState> posSet, RandomSource random, TreeConfiguration config, int trunkHeight, FoliagePlacer.FoliageAttachment foliage, int foliageHeight, int radius, int offset) {
         BlockPos pos = foliage.pos().immutable();
         if (foliage.doubleTrunk()) {
             placeLeaf(generationReader, posSet, random, config, pos.above(1));
@@ -61,11 +60,11 @@ public class AlderFoliagePlacer extends ModFoliagePlacer {
 
     }
 
-    public int m_5969_(RandomSource random, int currentWidth, TreeConfiguration config) {
+    public int foliageHeight(RandomSource random, int currentWidth, TreeConfiguration config) {
         return 0;
     }
 
-    protected boolean m_7394_(RandomSource random, int x, int y, int z, int radius, boolean bool) {
+    protected boolean shouldSkipLocation(RandomSource random, int x, int y, int z, int radius, boolean bool) {
         return x == radius && z == radius && (random.nextInt(2) == 0 || y == 0);
     }
 }

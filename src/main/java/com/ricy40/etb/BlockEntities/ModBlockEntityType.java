@@ -23,9 +23,9 @@ public class ModBlockEntityType {
 
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, EternalBlocks.MODID);
 
-    public static final RegistryObject<BlockEntityType<SignBlockEntity>> SIGN = registerSignBlockEntity("sign",
+    public static final RegistryObject<BlockEntityType<SignBlockEntity>> SIGN = registerSignBlockEntity("alder_sign",
             ModBlockEntityType.Builder.of(SignBlockEntity::new,
-                    ModBlocks.ALDER.SIGN.get(), ModBlocks.ALDER.WALL_SIGN.get()));
+                    ModBlocks.ALDER_SIGN.get(), ModBlocks.ALDER_WALL_SIGN.get()));
 
     private static <T extends BlockEntity> RegistryObject<BlockEntityType<T>> registerSignBlockEntity(String name, ModBlockEntityType.Builder<T> pBuilder) {
         Type<?> type = Util.fetchChoiceType(References.BLOCK_ENTITY, name);
