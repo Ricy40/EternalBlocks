@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "genericeco:block/tall_desert_grass_bottom"
+    },
+    "half=upper": {
+      "model": "genericeco:block/tall_desert_grass_top"
+    }
+  }
+}

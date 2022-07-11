@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "genericeco:block/robinia_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "genericeco:block/robinia_ladder"
+    },
+    "facing=south": {
+      "model": "genericeco:block/robinia_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genericeco:block/robinia_ladder",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/hackberry_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/hackberry_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/hackberry_slab_top"
+    }
+  }
+}

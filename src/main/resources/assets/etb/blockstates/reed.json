@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "genericeco:block/reed_bottom"
+    },
+    "half=upper": {
+      "model": "genericeco:block/reed_top"
+    }
+  }
+}

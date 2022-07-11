@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/mahogany_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/mahogany_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/mahogany_slab_top"
+    }
+  }
+}

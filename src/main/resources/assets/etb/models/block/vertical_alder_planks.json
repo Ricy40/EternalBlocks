@@ -1,0 +1,6 @@
+{
+  "parent": "etb:block/vertical_planks",
+  "textures": {
+    "all": "etb:block/alder_planks"
+  }
+}

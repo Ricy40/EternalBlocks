@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "genericeco:block/blue_water_lily"
+      },
+      {
+        "model": "genericeco:block/blue_water_lily",
+        "y": 90
+      },
+      {
+        "model": "genericeco:block/blue_water_lily",
+        "y": 180
+      },
+      {
+        "model": "genericeco:block/blue_water_lily",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "genericeco:block/alder_door_top",
+    "bottom": "genericeco:block/alder_door_bottom"
+  }
+}

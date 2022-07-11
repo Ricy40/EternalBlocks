@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/holly_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/holly_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/holly_slab_top"
+    }
+  }
+}

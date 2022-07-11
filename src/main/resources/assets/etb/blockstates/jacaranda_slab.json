@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/jacaranda_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/jacaranda_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/jacaranda_slab_top"
+    }
+  }
+}

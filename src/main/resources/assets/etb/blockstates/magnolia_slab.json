@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/magnolia_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/magnolia_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/magnolia_slab_top"
+    }
+  }
+}

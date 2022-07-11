@@ -3,6 +3,7 @@ package com.ricy40.etb.Blocks;
 import com.ricy40.etb.EternalBlocks;
 import com.ricy40.etb.Items.ModCreativeModeTab;
 import com.ricy40.etb.Items.ModItems;
+import com.ricy40.etb.world.TreeGrowers.AlderTreeGrower;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -20,11 +21,12 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, EternalBlocks.MODID);
 
-    public static final ModWoodSet ALDER = new ModWoodSet(BLOCKS, "alder", new OakTreeGrower(), MaterialColor.WOOD, MaterialColor.PODZOL, StaticBlockReferences.alder_stripped_post);
+    public static final ModWoodSet ALDER = new ModWoodSet(BLOCKS, "alder", new AlderTreeGrower(), MaterialColor.WOOD, MaterialColor.PODZOL, StaticBlockReferences.alder_stripped_post);
+    /*
     public static final ModWoodSet APPLE = new ModWoodSet(BLOCKS, "apple", new OakTreeGrower(), MaterialColor.WOOD, MaterialColor.PODZOL, StaticBlockReferences.apple_stripped_post);
     public static final ModWoodSet ASH = new ModWoodSet(BLOCKS, "ash", new OakTreeGrower(), MaterialColor.WOOD, MaterialColor.PODZOL, StaticBlockReferences.ash_stripped_post);
     public static final ModWoodSet ASPEN = new ModWoodSet(BLOCKS, "aspen", new OakTreeGrower(), MaterialColor.WOOD, MaterialColor.PODZOL, StaticBlockReferences.aspen_stripped_post);
-
+    */
     private <T extends Block> RegistryObject<T> registerBlockWithItem(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, ModCreativeModeTab.ETERNAL_BLOCKS);

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "etb:block/alder_log",
+    "side": "etb:block/alder_log"
+  }
+}

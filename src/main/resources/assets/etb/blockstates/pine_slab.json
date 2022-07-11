@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/pine_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/pine_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/pine_slab_top"
+    }
+  }
+}

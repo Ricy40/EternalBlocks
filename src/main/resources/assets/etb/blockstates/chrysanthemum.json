@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "genericeco:block/chrysanthemum_bottom"
+    },
+    "half=upper": {
+      "model": "genericeco:block/chrysanthemum_top"
+    }
+  }
+}

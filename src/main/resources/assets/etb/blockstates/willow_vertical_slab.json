@@ -1,0 +1,19 @@
+{
+  "variants": {
+ 	"type=north": { 
+		"model": "genericeco:block/willow_vertical_slab", "y": 0, "uvlock": true 
+	},
+ 	"type=south": { 
+		"model": "genericeco:block/willow_vertical_slab", "y": 180, "uvlock": true
+	},
+  	"type=east": { 
+		"model": "genericeco:block/willow_vertical_slab", "y": 90, "uvlock": true 
+	},
+ 	"type=west": { 
+		"model": "genericeco:block/willow_vertical_slab", "y": 270, "uvlock": true 
+	},
+    "type=double": { 
+		"model": "genericeco:block/willow_planks" 
+	}
+  }
+}

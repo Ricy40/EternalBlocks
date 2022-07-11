@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "genericeco:block/chestnut_pressure_plate"
+    },
+    "powered=true": {
+      "model": "genericeco:block/chestnut_pressure_plate_down"
+    }
+  }
+}

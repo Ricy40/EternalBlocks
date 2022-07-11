@@ -1,0 +1,6 @@
+{
+  "parent": "genericeco:block/hedge_side",
+  "textures": {
+    "leaf": "genericeco:block/alder_leaves"
+  }
+}

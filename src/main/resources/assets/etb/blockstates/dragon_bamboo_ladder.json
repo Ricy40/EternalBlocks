@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "genericeco:block/dragon_bamboo_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "genericeco:block/dragon_bamboo_ladder"
+    },
+    "facing=south": {
+      "model": "genericeco:block/dragon_bamboo_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genericeco:block/dragon_bamboo_ladder",
+      "y": 270
+    }
+  }
+}

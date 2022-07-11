@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/kapok_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/kapok_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/kapok_slab_top"
+    }
+  }
+}

@@ -3,10 +3,10 @@ package com.ricy40.etb.Blocks;
 import com.ricy40.etb.util.ModItemBlockRenderTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.nbt.Tag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.Tag;
-import net.minecraft.world.item.Item;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
@@ -18,14 +18,13 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.material.Fluids;
-import net.minecraft.world.ticks.ScheduledTick;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.PlantType;
 
 import java.util.Objects;
 
 public class HedgeBlock extends FenceBlock {
-    public static final Tag.Named<Block> HEDGES = BlockTags.createOptional(new ResourceLocation("quark", "hedges"));
+    public static final TagKey<Block> HEDGES = BlockTags.create(new ResourceLocation("quark", "hedges"));
     public static final BooleanProperty EXTEND = BooleanProperty.create("extend");
 
     public HedgeBlock(Properties properties) {

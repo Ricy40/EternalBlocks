@@ -1,0 +1,6 @@
+{
+  "parent": "etb:block/post",
+  "textures": {
+    "texture": "etb:block/alder_log"
+  }
+}

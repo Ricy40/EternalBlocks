@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "genericeco:block/tall_lotus_bottom"
+    },
+    "half=upper": {
+      "model": "genericeco:block/tall_pink_lotus_top"
+    }
+  }
+}

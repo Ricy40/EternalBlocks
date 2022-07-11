@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/linden_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/linden_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/linden_slab_top"
+    }
+  }
+}

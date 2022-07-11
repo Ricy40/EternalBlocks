@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/fir_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/fir_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/fir_slab_top"
+    }
+  }
+}

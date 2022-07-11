@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/dragon_bamboo_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/dragon_bamboo_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/dragon_bamboo_slab_top"
+    }
+  }
+}

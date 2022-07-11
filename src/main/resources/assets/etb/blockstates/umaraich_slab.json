@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/umaraich_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/umaraich_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/umaraich_slab_top"
+    }
+  }
+}

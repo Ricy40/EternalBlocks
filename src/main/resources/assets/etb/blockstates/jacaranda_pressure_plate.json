@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "genericeco:block/jacaranda_pressure_plate"
+    },
+    "powered=true": {
+      "model": "genericeco:block/jacaranda_pressure_plate_down"
+    }
+  }
+}

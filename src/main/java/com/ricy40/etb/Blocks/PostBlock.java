@@ -6,6 +6,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -49,7 +50,6 @@ public class PostBlock extends Block implements SimpleWaterloggedBlock {
         }
 
         this.registerDefaultState(defaultState);
-        ModItemBlockRenderTypes.addCutoutMipped(this);
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
@@ -77,7 +77,8 @@ public class PostBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     @Nullable
-    public BlockState m_5573_(BlockPlaceContext context) {
+    @Override
+    public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.getRelevantState(context.getLevel(), context.getClickedPos(), context.getClickedFace().getAxis());
     }
 
@@ -103,11 +104,11 @@ public class PostBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     @Nullable
-    public BlockState getToolModifiedState(BlockState state, Level world, BlockPos pos, Player player, ItemStack stack, ToolAction toolAction) {
+    public BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
         if (toolAction == ToolAction.get("axe")) {
             return this.block != null ? transferAllBlockStates(state, this.block.defaultBlockState()) : null;
         } else {
-            return super.getToolModifiedState(state, world, pos, player, stack, toolAction);
+            return super.getToolModifiedState(state, context, toolAction, simulate);
         }
     }
 

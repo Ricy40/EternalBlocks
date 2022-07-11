@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/chestnut_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/chestnut_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/chestnut_slab_top"
+    }
+  }
+}

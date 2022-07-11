@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/willow_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/willow_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/willow_slab_top"
+    }
+  }
+}

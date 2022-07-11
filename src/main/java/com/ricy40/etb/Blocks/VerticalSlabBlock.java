@@ -1,6 +1,7 @@
 package com.ricy40.etb.Blocks;
 
 import com.ricy40.etb.util.ModItemBlockRenderTypes;
+import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Direction.Axis;
@@ -55,7 +56,6 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
         super(props);
 
         registerDefaultState(defaultBlockState().setValue(TYPE, VerticalSlabType.NORTH).setValue(WATERLOGGED, false));
-        ModItemBlockRenderTypes.addCutoutMipped(this);
     }
 
     @Override

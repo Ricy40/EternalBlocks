@@ -18,7 +18,6 @@ public class LeafCarpetBlock extends Block {
 
     public LeafCarpetBlock(Properties properties) {
         super(properties);
-        ModItemBlockRenderTypes.addCutoutMipped(this);
     }
 
     public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {

@@ -17,6 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
+import java.util.function.Supplier;
 
 public class ModBlockEntityType {
 

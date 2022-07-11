@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/yucca_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/yucca_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/yucca_slab_top"
+    }
+  }
+}

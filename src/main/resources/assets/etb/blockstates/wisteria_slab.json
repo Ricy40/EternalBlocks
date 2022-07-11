@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/wisteria_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/wisteria_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/wisteria_slab_top"
+    }
+  }
+}

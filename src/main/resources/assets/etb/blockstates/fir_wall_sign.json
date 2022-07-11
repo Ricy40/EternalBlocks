@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "genericeco:block/fir_sign" }
+    }
+}

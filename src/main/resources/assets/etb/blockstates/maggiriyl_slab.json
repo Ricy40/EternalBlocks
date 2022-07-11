@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/maggiriyl_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/maggiriyl_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/maggiriyl_slab_top"
+    }
+  }
+}

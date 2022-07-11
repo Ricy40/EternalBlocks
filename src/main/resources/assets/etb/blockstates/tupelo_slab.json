@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/tupelo_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/tupelo_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/tupelo_slab_top"
+    }
+  }
+}

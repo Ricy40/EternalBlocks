@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genericeco:block/maple_slab"
+    },
+    "type=double": {
+      "model": "genericeco:block/maple_planks"
+    },
+    "type=top": {
+      "model": "genericeco:block/maple_slab_top"
+    }
+  }
+}
