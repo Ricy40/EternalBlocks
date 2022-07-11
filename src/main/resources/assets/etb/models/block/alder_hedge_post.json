@@ -1,7 +1,7 @@
 {
-  "parent": "genericeco:block/hedge_post",
+  "parent": "etb:block/hedge_post",
   "textures": {
-	"log": "genericeco:block/alder_log",
-    "leaf": "genericeco:block/alder_leaves"
+	"log": "etb:block/alder_log",
+    "leaf": "etb:block/alder_leaves"
   }
 }

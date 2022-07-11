@@ -1,6 +1,6 @@
 {
-  "parent": "genericeco:block/hedge_extend",
+  "parent": "etb:block/hedge_extend",
   "textures": {
-    "leaf": "genericeco:block/alder_leaves"
+    "leaf": "etb:block/alder_leaves"
   }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "genericeco:block/alder_sign" }
+        "": { "model": "etb:block/alder_sign" }
     }
 }

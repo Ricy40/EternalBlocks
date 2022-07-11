@@ -1,6 +1,6 @@
 {
-  "parent": "genericeco:block/leaf_carpet",
+  "parent": "etb:block/leaf_carpet",
   "textures": {
-    "all": "genericeco:block/alder_leaves"
+    "all": "etb:block/alder_leaves"
   }
 }

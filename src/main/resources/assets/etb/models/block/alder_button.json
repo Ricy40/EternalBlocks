@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "genericeco:block/alder_planks"
+    "texture": "etb:block/alder_planks"
   }
 }

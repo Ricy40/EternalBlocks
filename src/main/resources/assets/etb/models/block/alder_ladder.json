@@ -1,8 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "genericeco:block/alder_ladder",
-        "texture": "genericeco:block/alder_ladder"
+        "particle": "etb:block/alder_ladder",
+        "texture": "etb:block/alder_ladder"
     },
     "elements": [
         {   "from": [ 0, 0, 15.2 ],

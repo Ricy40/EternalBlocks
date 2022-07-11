@@ -5,7 +5,7 @@
         "axis": "y"
       },
       "apply": {
-        "model": "genericeco:block/stripped_alder_post"
+        "model": "etb:block/stripped_alder_post"
       }
     },
     {
@@ -13,7 +13,7 @@
         "axis": "x"
       },
       "apply": {
-        "model": "genericeco:block/stripped_alder_post",
+        "model": "etb:block/stripped_alder_post",
         "x": 90,
         "y": 90
       }
@@ -23,33 +23,33 @@
         "axis": "z"
       },
       "apply": {
-        "model": "genericeco:block/stripped_alder_post",
+        "model": "etb:block/stripped_alder_post",
         "x": 90
       }
     },
     {   
     	"when": { "chain_down": true },
-        "apply": { "model": "genericeco:block/chain_small" }
+        "apply": { "model": "etb:block/chain_small" }
     },
     {   
     	"when": { "chain_up": true },
-        "apply": { "model": "genericeco:block/chain_small_top" }
+        "apply": { "model": "etb:block/chain_small_top" }
     },
     {   
     	"when": { "chain_north": true },
-        "apply": { "model": "genericeco:block/chain_small_top", "x": 90 }
+        "apply": { "model": "etb:block/chain_small_top", "x": 90 }
     },
     {   
     	"when": { "chain_south": true },
-        "apply": { "model": "genericeco:block/chain_small", "x": 90 }
+        "apply": { "model": "etb:block/chain_small", "x": 90 }
     },
     {   
     	"when": { "chain_east": true },
-        "apply": { "model": "genericeco:block/chain_small_top", "x": 90, "y": 90 }
+        "apply": { "model": "etb:block/chain_small_top", "x": 90, "y": 90 }
     },
     {   
     	"when": { "chain_west": true },
-        "apply": { "model": "genericeco:block/chain_small", "x": 90, "y": 90 }
+        "apply": { "model": "etb:block/chain_small", "x": 90, "y": 90 }
     }
   ]
 }

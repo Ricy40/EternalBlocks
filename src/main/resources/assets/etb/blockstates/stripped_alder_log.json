@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "genericeco:block/stripped_alder_log_horizontal",
+      "model": "etb:block/stripped_alder_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "genericeco:block/stripped_alder_log"
+      "model": "etb:block/stripped_alder_log"
     },
     "axis=z": {
-      "model": "genericeco:block/stripped_alder_log_horizontal",
+      "model": "etb:block/stripped_alder_log_horizontal",
       "x": 90
     }
   }

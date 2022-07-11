@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "genericeco:block/vertical_alder_planks"
+      "model": "etb:block/vertical_alder_planks"
     }
   }
 }

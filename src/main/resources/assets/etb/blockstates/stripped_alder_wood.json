@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "genericeco:block/stripped_alder_wood",
+      "model": "etb:block/stripped_alder_wood",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "genericeco:block/stripped_alder_wood"
+      "model": "etb:block/stripped_alder_wood"
     },
     "axis=z": {
-      "model": "genericeco:block/stripped_alder_wood",
+      "model": "etb:block/stripped_alder_wood",
       "x": 90
     }
   }
